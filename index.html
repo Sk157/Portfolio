@@ -208,7 +208,8 @@
                             <button type="submit" onclick="myFunction()">Send message</button>
                             <script>
 function myFunction() {
-  alert("Thank you for contacting!");
+    var name = document.details.name.value;
+  alert("Thank you" + name +  "for contacting!");
 }
 </script>
                         </div>
